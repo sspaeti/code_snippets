@@ -34,11 +34,11 @@ $SPARK_HOME/bin/spark-shell \
   --packages io.delta:delta-core_2.12:0.7.0,org.apache.hadoop:hadoop-aws:3.0.1  \
   --conf spark.delta.logStore.class=org.apache.spark.sql.delta.storage.S3SingleDriverLogStore \
   --conf spark.hadoop.fs.path.style.access=true \
-  --conf spark.hadoop.fs.s3a.access.key=minio \
-  --conf spark.hadoop.fs.s3a.secret.key=miniostorage \
+  --conf spark.hadoop.fs.s3a.access.key=$MINIO_ACCESS_KEY \
+  --conf spark.hadoop.fs.s3a.secret.key=$MINIO_SECRET_KEY \
   --conf spark.hadoop.fs.s3a.endpoint=http://192.168.2.128:9000 \
   --conf spark.hadoop.fs.s3a.connection.ssl.enabled=false \
-  --name spark-delta123
+  --name spark-delta
 ````
 
 Two properties that was set in spark 2.4.4 but most probably not used anymore:
