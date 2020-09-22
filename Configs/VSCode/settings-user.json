@@ -1,0 +1,80 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "window.zoomLevel": 0,
+    "window.restoreFullscreen": true,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 4,
+    "workbench.list.openMode": "singleClick",
+    "editor.largeFileOptimizations": false,
+    "python.pythonPath": "/Users/sspaeti/anaconda3/envs/real-estate/bin/python"
+}
+
+    // "sublimeTextKeymap.promptV3Features": true,
+    // "editor.multiCursorModifier": "ctrlCmd",
+    // "editor.snippetSuggestions": "top",
+    // "workbench.colorTheme": "United Ubuntu",
+    // //"window.zoomLevel": 1,
+    // "window.restoreFullscreen": true,
+
+
+
+
+    // // vscode
+    // "editor.detectIndentation": true,
+    // "editor.formatOnPaste": true,
+    // "editor.tabSize": 4,
+    // "editor.insertSpaces": true,
+    // "files.insertFinalNewline": true,
+    // // only for python language files
+    // "[python]": {
+    //     "editor.rulers": [
+    //         72,
+    //         79
+    //     ],
+    //     "editor.tabSize": 4,
+    //     "editor.insertSpaces": true
+    // },
+    // // pythonVSCode extension
+    // "python.pythonPath": "${env.HOME}/miniconda3/envs/dev_py35",
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.flake8Enabled": false,
+    // "python.linting.pep8Enabled": true,
+    // "python.linting.lintOnTextChange": true,
+    // "python.formatting.provider": "yapf",
+    // "python.formatting.yapfArgs": [
+    //     "--style",
+    //     "{based_on_style: chromium, indent_width: 4}"
+    // ],
+
+
+    // // Editor
+    // "editor.minimap.enabled": true,
+    // "editor.minimap.renderCharacters": false,
+    // "editor.roundedSelection": false,
+    // "editor.renderIndentGuides": true,
+    // // Explorer
+    // "explorer.openEditors.visible": 0,
+    // // Files
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/.DS_Store": true,
+    //     "**/__pycache__": true,
+    //     "**/**/*.pyc": true
+    // },
+    // "files.associations": {
+    //     "Brewfile": "ruby",
+    //     "vimrc": "viml"
+    // },
+    // // Window - prevent blurry text on secondary monitor
+    // "window.zoomLevel": 0,
+    // // Word-wrap markdown
+    // "[markdown]": {
+    //     "editor.wordWrap": "on"
+    // }
+    
+
